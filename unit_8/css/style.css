@@ -52,40 +52,80 @@ nav a:active{
 
 main {
 	background-color: #fff;
-	color: #202022;
 	padding: 50px 0;
+}
+
+section {
+	padding: 50px 0;
+}
+
+footer {
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	color: #fff;
+	padding:200px 0 250px;
+}
+
+h1{
+	font-family: 'Lato' sans-serif;
+	font-size:4em;
+	text-align:center;
+	color: #fff;
+	font-weight: bold;
+	margin: 200px 0 250px;
 }
 
 h1,h2,h3,h4 {
 	font-family: 'Lato', sans-serif;
 	font-weight: normal;
-	font-color: #18A8DF;
-}
-
-h1{
-	font-size:4em;
-	text-align:center;
-	color: #fff;
-	font-weight: bold;
 }
 
 h2{
 	font-size:3em;
-	color: ##202022
+	color: #878787
 	font-weight: bold;
+	text-align: center;
+	margin: .5em 0 .5em;
 }
 
 h3{
 	font-size:2.25em;
+	color: #878787;
+	margin: .5em;
 }
 
 h4{
 	font-size:1.5em;
 	text-align:center;
-	color: #005A7C;
+	color: #878787;
+}
+
+p {
+	font-family: 'Roboto', serif;
+	font-size: 1em;
+	line-height: 1em;
+	font-color: #202022;
+}
+
+a {
+	text-decoration: none;
+}
+
+label {
+	font-family: 'Oswald', sans-serif;
+	color: #000;
+	padding:0 32px;
+	font-size: .8em;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	display: none;
 }
 
 #landing {
+	display: inline-block;
 	background-image: url("../images/tabletLaptopHeader.png");
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -106,22 +146,13 @@ h4{
 	padding: 4%;
 }
 
-#left {
-	background-color: #ffffff;
-	padding: 4%;
-	float: left;
-	width: 45%
-}
-
-#right {
-	background-color: #ffffff;
-	padding: 4%;
-	float: right;
-	width: 45%;
-}
-
 #toggle{
 	display: none;
+}
+
+#headshot {
+	float: left;
+	margin: 15px 0 15px;
 }
 
 .clearfix:after {
@@ -131,4 +162,42 @@ h4{
     content: " ";
     clear: both;
     height: 0;
+}
+
+.headerLogo {
+	width: 200px;
+	height: 44px;
+	display: block;
+	float: left;
+	background: url("..images/gayaneLogo.png")  no-repeat center center / 100% auto;
+	position: relative;
+	top: 50%;
+}
+
+.digitalFundraising {
+	padding: 4%;
+	float: left;
+	width: 45%;
+}
+
+.social {
+	padding: 4%;
+	float: right;
+	width: 45%;
+}
+
+.advocacy {
+	padding: 4%;
+	float: left;
+	width: 45%;
+}
+
+.contentStrategy {
+	padding: 4%;
+	float: right;
+	width: 45%;
+}
+
+.aboutGayane {
+	clear: both;
 }
