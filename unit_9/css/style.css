@@ -93,7 +93,8 @@ h2{
 
 h3{
 	font-size:2.25em;
-	color: #878787;
+	text-align: center;
+	color: #18A8DF;
 	margin: .5em;
 }
 
@@ -106,7 +107,7 @@ h4{
 p {
 	font-family: 'Roboto', serif;
 	font-size: 1em;
-	line-height: 1em;
+	line-height: 1.5em;
 	font-color: #202022;
 }
 
@@ -131,7 +132,7 @@ a {
 	height: 100vh;
 }
 
-#whatWeDo {
+#whatWeDo-wrap {
 	background-color: #ffffff;
 	padding: 4%;
 }
@@ -159,7 +160,11 @@ a {
 	padding: 4%;
 	float: left;
 	width: 45%;
+	text-align: center;
+	color: #878787;
+	line-height: 2em;
 }
+
 
 .aboutGayane {
 	line-height: 1.5em;
